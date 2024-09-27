@@ -2,6 +2,9 @@
 
 `istest` is a Go package that provides utilities for detecting and working with test environments in Go programs.
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/goaux/istest.svg)](https://pkg.go.dev/github.com/goaux/istest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/goaux/istest)](https://goreportcard.com/report/github.com/goaux/istest)
+
 Use with care as excessive use can ruin your tests.
 
 The determination is made based on whether `os.Args[0]` ends with ".test".
